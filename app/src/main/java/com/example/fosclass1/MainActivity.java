@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent activityhasil = new Intent(MainActivity.this,HasilActivity.class);
+                activityhasil.putExtra("BANGUNDATAR","Persegi");
                 startActivity(activityhasil);
             }
         });
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent activityhasil = new Intent(MainActivity.this,HasilActivity.class);
+                activityhasil.putExtra("BANGUNDATAR","Lingkaran");
                 startActivity(activityhasil);
             }
         });
@@ -55,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent activityhasil = new Intent(MainActivity.this,HasilActivity.class);
+                activityhasil.putExtra("BANGUNDATAR","Persegi Panjang");
                 startActivity(activityhasil);
             }
         });
